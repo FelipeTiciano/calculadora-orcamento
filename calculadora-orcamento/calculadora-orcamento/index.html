@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de Orçamento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Orçamento</h1>
+    <label for="horas">Horas estimadas:</label>
+    <input type="number" id="horas" placeholder="Ex: 10">
+    <label for="valorHora">Valor por hora (R$):</label>
+    <input type="number" id="valorHora" placeholder="Ex: 50">
+    <button onclick="calcular()">Calcular</button>
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
